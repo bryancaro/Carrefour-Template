@@ -11,7 +11,7 @@ import SwiftUI
 struct App_CarrefourApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

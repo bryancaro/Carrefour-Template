@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112AC1C527C8AE4400DBB19A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AC1C427C8AE4400DBB19A /* LoadingView.swift */; };
+		112AC1C827C8B13700DBB19A /* View-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AC1C727C8B13700DBB19A /* View-Extensions.swift */; };
+		112AC1CB27C8B85300DBB19A /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AC1CA27C8B85300DBB19A /* UserCardView.swift */; };
 		11E9C02727C7882600416DC9 /* App_CarrefourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C02627C7882600416DC9 /* App_CarrefourApp.swift */; };
-		11E9C02927C7882600416DC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C02827C7882600416DC9 /* ContentView.swift */; };
 		11E9C02B27C7882800416DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E9C02A27C7882800416DC9 /* Assets.xcassets */; };
 		11E9C02E27C7882800416DC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E9C02D27C7882800416DC9 /* Preview Assets.xcassets */; };
 		11E9C03827C7882800416DC9 /* App_CarrefourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C03727C7882800416DC9 /* App_CarrefourTests.swift */; };
 		11E9C04227C7882800416DC9 /* App_CarrefourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C04127C7882800416DC9 /* App_CarrefourUITests.swift */; };
 		11E9C04427C7882800416DC9 /* App_CarrefourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C04327C7882800416DC9 /* App_CarrefourUITestsLaunchTests.swift */; };
+		11E9C05627C788BA00416DC9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11E9C05527C788BA00416DC9 /* Localizable.strings */; };
+		11E9C06127C7959200416DC9 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C06027C7959200416DC9 /* NetworkController.swift */; };
+		11E9C06327C795EF00416DC9 /* NetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C06227C795EF00416DC9 /* NetworkControllerProtocol.swift */; };
+		11E9C07727C7967400416DC9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C06827C7967400416DC9 /* HomeViewModel.swift */; };
+		11E9C07827C7967400416DC9 /* HomeServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C06B27C7967400416DC9 /* HomeServer.swift */; };
+		11E9C07927C7967400416DC9 /* HomeLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C06D27C7967400416DC9 /* HomeLocal.swift */; };
+		11E9C07B27C7967400416DC9 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C07027C7967400416DC9 /* HomeRepository.swift */; };
+		11E9C07C27C7967400416DC9 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C07227C7967400416DC9 /* HomeModel.swift */; };
+		11E9C07D27C7967400416DC9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C07527C7967400416DC9 /* HomeView.swift */; };
+		11E9C07F27C7970700416DC9 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C07E27C7970700416DC9 /* AppError.swift */; };
+		11E9C08627C79AE200416DC9 /* HomeModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C08527C79AE200416DC9 /* HomeModelResponse.swift */; };
+		11E9C08827C79B1A00416DC9 /* HomeNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C08727C79B1A00416DC9 /* HomeNetworkManager.swift */; };
+		11E9C08E27C79C0300416DC9 /* HomeEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C08D27C79C0300416DC9 /* HomeEndPoint.swift */; };
+		11E9C09027C79C2B00416DC9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C08F27C79C2B00416DC9 /* Endpoint.swift */; };
+		11E9C09327C7BC1800416DC9 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C09227C7BC1800416DC9 /* ViewModelProtocol.swift */; };
+		11E9C09527C7C0C900416DC9 /* ViewModelDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C09427C7C0C900416DC9 /* ViewModelDataManagerProtocol.swift */; };
+		11E9C09A27C7C18100416DC9 /* ServerDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9C09927C7C18100416DC9 /* ServerDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112AC1C427C8AE4400DBB19A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		112AC1C727C8B13700DBB19A /* View-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-Extensions.swift"; sourceTree = "<group>"; };
+		112AC1CA27C8B85300DBB19A /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
 		11E9C02327C7882600416DC9 /* App-Carrefour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Carrefour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E9C02627C7882600416DC9 /* App_CarrefourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_CarrefourApp.swift; sourceTree = "<group>"; };
-		11E9C02827C7882600416DC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11E9C02A27C7882800416DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E9C02D27C7882800416DC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11E9C03327C7882800416DC9 /* App-CarrefourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-CarrefourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +65,23 @@
 		11E9C03D27C7882800416DC9 /* App-CarrefourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-CarrefourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E9C04127C7882800416DC9 /* App_CarrefourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_CarrefourUITests.swift; sourceTree = "<group>"; };
 		11E9C04327C7882800416DC9 /* App_CarrefourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_CarrefourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11E9C05527C788BA00416DC9 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		11E9C06027C7959200416DC9 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		11E9C06227C795EF00416DC9 /* NetworkControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkControllerProtocol.swift; sourceTree = "<group>"; };
+		11E9C06827C7967400416DC9 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		11E9C06B27C7967400416DC9 /* HomeServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeServer.swift; sourceTree = "<group>"; };
+		11E9C06D27C7967400416DC9 /* HomeLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLocal.swift; sourceTree = "<group>"; };
+		11E9C07027C7967400416DC9 /* HomeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		11E9C07227C7967400416DC9 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		11E9C07527C7967400416DC9 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11E9C07E27C7970700416DC9 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		11E9C08527C79AE200416DC9 /* HomeModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModelResponse.swift; sourceTree = "<group>"; };
+		11E9C08727C79B1A00416DC9 /* HomeNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkManager.swift; sourceTree = "<group>"; };
+		11E9C08D27C79C0300416DC9 /* HomeEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEndPoint.swift; sourceTree = "<group>"; };
+		11E9C08F27C79C2B00416DC9 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		11E9C09227C7BC1800416DC9 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		11E9C09427C7C0C900416DC9 /* ViewModelDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDataManagerProtocol.swift; sourceTree = "<group>"; };
+		11E9C09927C7C18100416DC9 /* ServerDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +109,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112AC1C027C8ADC600DBB19A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				112AC1C127C8ADD200DBB19A /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		112AC1C127C8ADD200DBB19A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				112AC1C327C8ADE700DBB19A /* Cells */,
+				112AC1C227C8ADDA00DBB19A /* Components */,
+				112AC1C927C8B16E00DBB19A /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		112AC1C227C8ADDA00DBB19A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		112AC1C327C8ADE700DBB19A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		112AC1C927C8B16E00DBB19A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				112AC1C427C8AE4400DBB19A /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		11E9C01A27C7882600416DC9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +173,11 @@
 			isa = PBXGroup;
 			children = (
 				11E9C02627C7882600416DC9 /* App_CarrefourApp.swift */,
-				11E9C02827C7882600416DC9 /* ContentView.swift */,
+				11E9C05027C7883300416DC9 /* Modules */,
+				11E9C05127C7884D00416DC9 /* API */,
+				11E9C05227C7886300416DC9 /* CommonShared */,
+				11E9C05327C7888300416DC9 /* Utilities */,
+				11E9C05427C7889600416DC9 /* SupportingFiles */,
 				11E9C02A27C7882800416DC9 /* Assets.xcassets */,
 				11E9C02C27C7882800416DC9 /* Preview Content */,
 			);
@@ -125,6 +207,245 @@
 				11E9C04327C7882800416DC9 /* App_CarrefourUITestsLaunchTests.swift */,
 			);
 			path = "App-CarrefourUITests";
+			sourceTree = "<group>";
+		};
+		11E9C05027C7883300416DC9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				112AC1C027C8ADC600DBB19A /* Common */,
+				11E9C06627C7967400416DC9 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		11E9C05127C7884D00416DC9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C05F27C7957D00416DC9 /* NetworkController */,
+				11E9C09627C7C11D00416DC9 /* DataManager */,
+				11E9C05C27C7898900416DC9 /* Servers */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		11E9C05227C7886300416DC9 /* CommonShared */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C09127C7BC0A00416DC9 /* Protocols */,
+				11E9C05827C788E600416DC9 /* View */,
+				11E9C05927C788EA00416DC9 /* Models */,
+				11E9C05A27C7892900416DC9 /* Extensions */,
+			);
+			path = CommonShared;
+			sourceTree = "<group>";
+		};
+		11E9C05327C7888300416DC9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C05727C788CA00416DC9 /* Lotties */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		11E9C05427C7889600416DC9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C05527C788BA00416DC9 /* Localizable.strings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		11E9C05727C788CA00416DC9 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		11E9C05827C788E600416DC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11E9C05927C788EA00416DC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C07E27C7970700416DC9 /* AppError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11E9C05A27C7892900416DC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				112AC1C727C8B13700DBB19A /* View-Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11E9C05C27C7898900416DC9 /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C08227C79ABE00416DC9 /* Home */,
+			);
+			path = Servers;
+			sourceTree = "<group>";
+		};
+		11E9C05F27C7957D00416DC9 /* NetworkController */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C06227C795EF00416DC9 /* NetworkControllerProtocol.swift */,
+				11E9C06027C7959200416DC9 /* NetworkController.swift */,
+				11E9C08F27C79C2B00416DC9 /* Endpoint.swift */,
+			);
+			path = NetworkController;
+			sourceTree = "<group>";
+		};
+		11E9C06627C7967400416DC9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C07127C7967400416DC9 /* Model */,
+				11E9C07327C7967400416DC9 /* View */,
+				11E9C06727C7967400416DC9 /* ViewModel */,
+				11E9C06927C7967400416DC9 /* DataManager */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11E9C06727C7967400416DC9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C06827C7967400416DC9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11E9C06927C7967400416DC9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C07027C7967400416DC9 /* HomeRepository.swift */,
+				11E9C06A27C7967400416DC9 /* Server */,
+				11E9C06C27C7967400416DC9 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		11E9C06A27C7967400416DC9 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C06B27C7967400416DC9 /* HomeServer.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		11E9C06C27C7967400416DC9 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C06D27C7967400416DC9 /* HomeLocal.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		11E9C07127C7967400416DC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C07227C7967400416DC9 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11E9C07327C7967400416DC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C07627C7967400416DC9 /* Component */,
+				11E9C07427C7967400416DC9 /* Card */,
+				11E9C07527C7967400416DC9 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11E9C07427C7967400416DC9 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				112AC1CA27C8B85300DBB19A /* UserCardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		11E9C07627C7967400416DC9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		11E9C08227C79ABE00416DC9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C08327C79AC300416DC9 /* Response */,
+				11E9C08927C79BC300416DC9 /* Endpoint */,
+				11E9C08427C79AC800416DC9 /* Server */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11E9C08327C79AC300416DC9 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C08527C79AE200416DC9 /* HomeModelResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		11E9C08427C79AC800416DC9 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C08727C79B1A00416DC9 /* HomeNetworkManager.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		11E9C08927C79BC300416DC9 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C08D27C79C0300416DC9 /* HomeEndPoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		11E9C09127C7BC0A00416DC9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C09227C7BC1800416DC9 /* ViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		11E9C09627C7C11D00416DC9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C09727C7C12F00416DC9 /* Protocol */,
+				11E9C09827C7C15700416DC9 /* Server */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		11E9C09727C7C12F00416DC9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C09427C7C0C900416DC9 /* ViewModelDataManagerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		11E9C09827C7C15700416DC9 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				11E9C09927C7C18100416DC9 /* ServerDataManager.swift */,
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E9C02E27C7882800416DC9 /* Preview Assets.xcassets in Resources */,
+				11E9C05627C788BA00416DC9 /* Localizable.strings in Resources */,
 				11E9C02B27C7882800416DC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +579,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E9C02927C7882600416DC9 /* ContentView.swift in Sources */,
+				11E9C09327C7BC1800416DC9 /* ViewModelProtocol.swift in Sources */,
+				11E9C07B27C7967400416DC9 /* HomeRepository.swift in Sources */,
+				11E9C09527C7C0C900416DC9 /* ViewModelDataManagerProtocol.swift in Sources */,
+				11E9C07727C7967400416DC9 /* HomeViewModel.swift in Sources */,
+				11E9C08627C79AE200416DC9 /* HomeModelResponse.swift in Sources */,
+				11E9C09027C79C2B00416DC9 /* Endpoint.swift in Sources */,
+				11E9C08827C79B1A00416DC9 /* HomeNetworkManager.swift in Sources */,
+				11E9C08E27C79C0300416DC9 /* HomeEndPoint.swift in Sources */,
+				11E9C07C27C7967400416DC9 /* HomeModel.swift in Sources */,
+				112AC1CB27C8B85300DBB19A /* UserCardView.swift in Sources */,
+				11E9C09A27C7C18100416DC9 /* ServerDataManager.swift in Sources */,
+				112AC1C827C8B13700DBB19A /* View-Extensions.swift in Sources */,
 				11E9C02727C7882600416DC9 /* App_CarrefourApp.swift in Sources */,
+				11E9C06327C795EF00416DC9 /* NetworkControllerProtocol.swift in Sources */,
+				11E9C06127C7959200416DC9 /* NetworkController.swift in Sources */,
+				11E9C07F27C7970700416DC9 /* AppError.swift in Sources */,
+				11E9C07927C7967400416DC9 /* HomeLocal.swift in Sources */,
+				11E9C07D27C7967400416DC9 /* HomeView.swift in Sources */,
+				11E9C07827C7967400416DC9 /* HomeServer.swift in Sources */,
+				112AC1C527C8AE4400DBB19A /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
